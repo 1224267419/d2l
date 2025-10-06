@@ -62,6 +62,12 @@ print(y)
 
 **多个loss**分别进行反向求导时需要累加梯度,**因此torch默认进行梯度累积**
 
+[3_homework_sinx.py](..\code\1_data-operate\3_homework_sinx.py) 
+
+给出了一个计算导数的例子,并解释了**矩阵求导不能用backwards时应该如何处理**(直接.sum()即可,原因看上面)
 
 
-[todo](https://www.bilibili.com/video/BV1PX4y1g7KC?spm_id_from=333.788.recommend_more_video.0&vd_source=82d188e70a66018d5a366d01b4858dc1)
+
+
+
+[todo](https://www.bilibili.com/video/BV1PX4y1g7KC?spm_id_from=333.788.recommend_more_video.0&vd_source=82d188e70a66018d5a366d01b4858dc1) 
